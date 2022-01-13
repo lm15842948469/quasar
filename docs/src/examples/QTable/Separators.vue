@@ -4,12 +4,7 @@
       v-model="separator"
       inline
       class="q-mb-md"
-      :options="[
-        { label: 'Horizontal (default)', value: 'horizontal' },
-        { label: 'Vertical', value: 'vertical' },
-        { label: 'Cell', value: 'cell' },
-        { label: 'None', value: 'none' },
-      ]"
+      :options="[{ label: 'Cell', value: 'cell' }]"
     />
 
     <q-table
